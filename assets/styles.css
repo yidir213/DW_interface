@@ -1,0 +1,49 @@
+
+#weather-graph, #map-graph {
+    margin-top: 20px;
+}
+
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.dropdown-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+#station-dropdown,
+#year-dropdown,
+#season-dropdown,
+#quarter-dropdown,
+#month-dropdown {
+    flex: 1 1 auto; 
+    margin: 5px; 
+    min-width: 200px; 
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#weather-graph, #map-graph {
+    margin-top: 20px;
+}
+
+#weather-graph {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+#map-graph {
+    height: 600px;
+}
+
